@@ -1,0 +1,34 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- action_know
+config:
+  store_entities_as_slots: true
+entities:
+- pokemon
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- pokemon_search:
+    use_entities: true
+slots:
+  pokemon:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: bye :(
+  - text: It seems u dont need me :(
+  - text: bye for now :)
+  - text: come back later :)
+  utter_greet:
+  - text: Hello there welcome to Pokedex
+  - text: Welcome to Pokedex
+  - text: Hi there search for your pokemon
+  - text: Hey there lets search some pokemon

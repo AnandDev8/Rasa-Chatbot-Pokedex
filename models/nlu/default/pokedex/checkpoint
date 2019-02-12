@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/1431026/Desktop/pokdex_chatbot/./models/nlu/default/pokedex/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/1431026/Desktop/pokdex_chatbot/./models/nlu/default/pokedex/intent_classifier_tensorflow_embedding.ckpt"

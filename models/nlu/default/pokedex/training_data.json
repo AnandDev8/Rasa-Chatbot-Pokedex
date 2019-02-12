@@ -1,0 +1,1289 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "bulbasaur",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about bulbasaur"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "kakuna",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about kakuna"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "mega Venusaur",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about mega Venusaur"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "charmeleon",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about charmeleon"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "weedle",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about weedle"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "beedrill",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about beedrill"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "rattata",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about rattata"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "spearow",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about spearow"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "ekans",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about ekans"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "pikachu",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about pikachu"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "sandshrew",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about sandshrew"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "nidorina",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about nidorina"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "nidorina",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about nidorina"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "clefairy",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about clefairy"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "zubat",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about zubat"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "golbat",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about golbat"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "gloom",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about gloom"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "paras",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about paras"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "venonat",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about venonat"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "venomoth",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about venomoth"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "diglett",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about diglett"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "persian",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about persian"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "golduck",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "i want to know about golduck"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "charmander",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about charmander"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "mankey",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about mankey"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "primeape",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about primeape"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "growlithe",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about growlithe"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "arcanine",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about arcanine"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "poliwag",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about poliwag"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "poliwhirl",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about poliwhirl"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "poliwrath",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about poliwrath"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "abra",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about abra"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "alakazam",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about alakazam"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "value": "mega Alakazam ",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about mega Alakazam "
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "machop",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about machop"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "machoke",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about machoke"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "machamp",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about machamp"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "weepinbell",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about weepinbell"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "victreebel",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about victreebel"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "tentacool",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about tentacool"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "geodude",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about geodude"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "graveler",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about graveler"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "golem",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about golem"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "ponyta",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about ponyta"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "slowpoke",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about slowpoke"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "magnemite",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about magnemite"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "magneton",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about magneton"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "doduo",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about doduo"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "seel",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "tell me about seel"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "dewgong",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is dewgong"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "grimer",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is grimer"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "muk",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is muk"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "shellder",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is shellder"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "cloyster",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is cloyster"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "gastly",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is gastly"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "gengar",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is gengar"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "mega Gengar",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is mega Gengar"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "onix",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is onix"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "drowzee",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is drowzee"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "hypno",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is hypno"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "krabby",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is krabby"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "kingler",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is kingler"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "voltorb",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is voltorb"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "electrode",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is electrode"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "exeggcute",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is exeggcute"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "exeggutor",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is exeggutor"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "cubone",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is cubone"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "marowak",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is marowak"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "hitmonlee",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is hitmonlee"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "hitmonchan",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is hitmonchan"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "lickitung",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is lickitung"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "koffing",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "what is koffing"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "blastoise",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know about blastoise"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "weezing",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on weezing"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "rhyhorn",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on rhyhorn"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "rhydon",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on rhydon"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "chansey",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on chansey"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "tangela",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on tangela"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "kangaskhan",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on kangaskhan"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "mega Kangaskhan ",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on mega Kangaskhan "
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "horsea",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on horsea"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "seadra",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on seadra"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "goldeen",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on goldeen"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "seaking",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on seaking"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "staryu",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on staryu"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "starmie",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on starmie"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "scyther",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on scyther"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "jynx",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on jynx"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "electabuzz",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on electabuzz"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "magmar",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "want to know on magmar"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "butterfree",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on butterfree"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "mega Pinsir",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on mega Pinsir"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "tauros",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on tauros"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "magikarp",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on magikarp"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "gyarados",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on gyarados"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "mega Gyarados",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on mega Gyarados"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "lapras",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on lapras"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "ditto",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on ditto"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "eevee",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on eevee"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "vaporeon",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on vaporeon"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "jolteon",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on jolteon"
+      },
+      {
+        "intent": "pokemon_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "flareon",
+            "entity": "pokemon"
+          }
+        ],
+        "text": "guess me on flareon"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i am going"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
